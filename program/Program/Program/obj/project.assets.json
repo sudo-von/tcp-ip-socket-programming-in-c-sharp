@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    ".NETCoreApp,Version=v3.1": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\jesusaro\\.nuget\\packages\\": {}
@@ -13,24 +13,24 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesusaro\\OneDrive - Intel Corporation\\Documents\\Github\\tcp-ip-socket-programming-in-c-sharp\\application\\application.csproj",
-      "projectName": "application",
-      "projectPath": "C:\\Users\\jesusaro\\OneDrive - Intel Corporation\\Documents\\Github\\tcp-ip-socket-programming-in-c-sharp\\application\\application.csproj",
+      "projectUniqueName": "C:\\Users\\jesusaro\\OneDrive - Intel Corporation\\Documents\\Github\\tcp-ip-socket-programming-in-c-sharp\\program\\Program\\Program\\Program.csproj",
+      "projectName": "Program",
+      "projectPath": "C:\\Users\\jesusaro\\OneDrive - Intel Corporation\\Documents\\Github\\tcp-ip-socket-programming-in-c-sharp\\program\\Program\\Program\\Program.csproj",
       "packagesPath": "C:\\Users\\jesusaro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesusaro\\OneDrive - Intel Corporation\\Documents\\Github\\tcp-ip-socket-programming-in-c-sharp\\application\\obj\\",
+      "outputPath": "C:\\Users\\jesusaro\\OneDrive - Intel Corporation\\Documents\\Github\\tcp-ip-socket-programming-in-c-sharp\\program\\Program\\Program\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jesusaro\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,8 +41,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",

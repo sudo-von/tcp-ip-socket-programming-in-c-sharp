@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Net;
 using System.Net.Sockets;
-namespace application
+
+namespace Program
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+
             var listenerSocket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             var ipAddress = IPAddress.Any;
             int portNumber = 23000;
@@ -18,7 +19,6 @@ namespace application
 
             listenerSocket.Listen(5);
             listenerSocket.Accept();
-
 
         }
     }
